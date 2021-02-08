@@ -21,7 +21,7 @@ RUN	apt-get install -y nmap
 RUN	apt-get install -y traceroute
 
 # 3) install packages
-RUN pip install --no-cache-dir babypandas geopandas
+RUN pip install --no-cache-dir babypandas geopandas facenet_pytorch
 
 # 4) change back to notebook user
 # COPY /run_jupyter.sh /
