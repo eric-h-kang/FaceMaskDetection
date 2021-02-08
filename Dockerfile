@@ -17,9 +17,10 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 USER root
 
 RUN	apt-get install htop
-RUN apt-get install python3-opencv
+
 # 3) install packages
 RUN pip install --no-cache-dir facenet_pytorch scipy numpy 
+RUN conda install -c menpo opencv
 
 # 4) change back to notebook user
 # COPY /run_jupyter.sh /
