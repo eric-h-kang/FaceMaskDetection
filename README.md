@@ -9,6 +9,9 @@ This calls the etl.py function which presents a list of stats for our images in 
 
 Based on a predefinied path, Gradcam will be applied to the image rendering a heatmap of what the netowrk looked at to make our prediction. As seen below here are examples of what GradCam looked at to make a prediction regarding the correct wearing of FaceMaks. This increases one trust in the Neural Netowrk as it bceomes more Explainable to the Human Eye. 
 
+![image](https://drive.google.com/uc?export=view&id=1kqw8QJYPR7vOBCco7p4XcVZ7xQKexdIR)
+
+
 The presentations section includes our model metrics for the neural network created for our analysis. This goes on to look at our accuracy metrics and see how the model performed. Our notebook GradCam EDA looks at implementing an algorithm that can identify what our neural network would look at to identify whether a mask would be work correctly. An example of that is the output of our run.py file which gives us information on how these images are segregated. The src folder contains information on the functions used to train the model and our config folder contains parameter information that simplifies the working of run.py. 
 
 In order to run our given code structure, the command python run test needs to be applied. What this does is load data using the data_params mentioned, and identify certain key aspects needed for our model's analysis. 
