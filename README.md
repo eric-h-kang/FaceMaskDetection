@@ -1,6 +1,18 @@
 # FaceMaskDetection
 In an attempt to bring more transparency in artificial intelligence in a high stakes situation such as the Coronavirus pandemic, our aim was to create a model that would be able to determine if an individual was wearing a mask correctly, incorrectly, or not at all. Utilizing a subsection of the dataset MaskedFace-Net, we were able to train a model with the Inception Resnet V1 model. Moreover, as this dataset further breaks down incorrect mask usage into why, such as uncovered chin, mouth, or nose area, we aimed to apply GradCAM in order to build transparency and trust, and ultimately ensure that our model was coming to the conclusion for the right reasons.
 
+
+## Project Stucture
+
+### Config files
+**Inut_params
+Neural_network_params
+train_model.py***
+
+### Presentation
+
+### run.py
+
 ## Usage of GradCam
 
 In order to run out code on a given input path, type the command ```python run.py test``` from the main directory. 
