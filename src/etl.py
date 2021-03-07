@@ -1,6 +1,6 @@
 from src import gradcam
 from src import input_paths as data
-from PIL import Image
+from PIL import Image 
 
 covered_path = data.covered_path
 
