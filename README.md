@@ -4,14 +4,14 @@ In an attempt to bring more transparency in artificial intelligence in a high st
 
 ## Project Stucture
 
-### Config files
+#### Config files
 **Inut_params
 Neural_network_params
-train_model.py***
+train_model.py**
 
-### Presentation
+#### Presentation
 
-### run.py
+#### run.py
 
 ## Usage of GradCam
 
