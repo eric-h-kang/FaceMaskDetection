@@ -17,9 +17,7 @@ These contain brief snippets of our notebook to give you an idea of how our mode
 This is our main file run file that calls in methods given in gradcam.py and etl.py. To run on a given image type the command  ```python run.py test``` and in order to edit the file_path for another image, run the command  ```python run.py run_grad``` and give the file path in the data_input.py file to test it out. 
 
 ### src
-
 The src folder contains information on the functions used to train the model and our config folder contains parameter information that simplifies the working of run.py. 
-
 
 ## Usage of GradCam
 
