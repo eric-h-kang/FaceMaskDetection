@@ -10,7 +10,7 @@ vpc = '/datasets/MaskedFace-Net/validation/covered' #validation path covered
 vpic = '/datasets/MaskedFace-Net/validation/incorrect' #validation path incorrect
 vpu = '/datasets/MaskedFace-Net/validation/uncovered' #validation path uncovered
 
-covered_path = '/datasets/MaskedFace-Net/train/covered/14931_Mask.jpg'
+input_path = '/datasets/MaskedFace-Net/train/covered/14931_Mask.jpg'
 #pil_im = Image.open(covered_path)
 hopc = '/datasets/MaskedFace-Net/holdout/covered'
 incorrect_path = '/datasets/MaskedFace-Net/train/incorrect/29943_Mask_Chin.jpg'
