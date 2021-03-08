@@ -317,7 +317,7 @@ def run_grad_train(model):
         print("Running")
         print("This may take a while")
         print("Loading images defined by the path given in the data_input py file")
-        images  = data.covered_path
+        images  = data.input_path
         
         grad_cam = GradCam(model=model, feature_module=model.repeat_3, \
                        target_layer_names=["4"], use_cuda = False)
