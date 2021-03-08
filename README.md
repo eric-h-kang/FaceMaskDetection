@@ -5,13 +5,21 @@ In an attempt to bring more transparency in artificial intelligence in a high st
 ## Project Stucture
 
 #### Config files
-**Inut_params
-Neural_network_params
-train_model.py**
+
+These files contain important links and file paths to images and our dataset that are used by our run files 
 
 #### Presentation
 
+These contain brief snippets of our notebook to give you an idea of how our model was built and the underlying code and output for different features of our project. Our notebook GradCam EDA looks at implementing an algorithm that can identify what our neural network would look at to identify whether a mask would be work correctly and this is displayed in the gradcam presentation
+
 #### run.py
+
+This is our main file run file that calls in methods given in gradcam.py and etl.py. To run on a given image type the command  ```python run.py test``` and in order to edit the file_path for another image, run the command  ```python run.py run_grad``` and give the file path in the data_input.py file to test it out. 
+
+### src
+
+The src folder contains information on the functions used to train the model and our config folder contains parameter information that simplifies the working of run.py. 
+
 
 ## Usage of GradCam
 
@@ -21,10 +29,12 @@ This calls the etl.py function which presents a list of stats for our images in 
 
 Based on a predefinied path, Gradcam will be applied to the image rendering a heatmap of what the netowrk looked at to make our prediction. As seen below here are examples of what GradCam looked at to make a prediction regarding the correct wearing of FaceMaks. This increases one trust in the Neural Netowrk as it bceomes more Explainable to the Human Eye. 
 
-![image](https://drive.google.com/uc?export=view&id=1kqw8QJYPR7vOBCco7p4XcVZ7xQKexdIR)
 ![image](https://drive.google.com/uc?export=view&id=10EIantVsmZLYXwfyJI6VtpXCQ1fwNJhS)
+![image](https://drive.google.com/uc?export=view&id=1kqw8QJYPR7vOBCco7p4XcVZ7xQKexdIR)
+
+Looking at these images, neural networks make a lot more sense intuitively as we know why our network made that prediction.
 
 
-The presentations section includes our model metrics for the neural network created for our analysis. This goes on to look at our accuracy metrics and see how the model performed. Our notebook GradCam EDA looks at implementing an algorithm that can identify what our neural network would look at to identify whether a mask would be work correctly. An example of that is the output of our run.py file which gives us information on how these images are segregated. The src folder contains information on the functions used to train the model and our config folder contains parameter information that simplifies the working of run.py. 
+# Results and Discussion
 
-In order to run our given code structure, the command python run test needs to be applied. What this does is load data using the data_params mentioned, and identify certain key aspects needed for our model's analysis. 
+The result of our model was an accuracy of 96% in being able to classify between the three classes: improper face mask usage, no mask, and proper face mask usage. In terms of Grad-CAM, the implementation was successful in building trust and transparency within our model: the model was looking at the correct areas to determine the face mask usage. 
