@@ -35,4 +35,7 @@ Looking at these images, neural networks make a lot more sense intuitively as we
 
 # Results and Discussion
 
-The result of our model was an accuracy of 96% in being able to classify between the three classes: improper face mask usage, no mask, and proper face mask usage. In terms of Grad-CAM, the implementation was successful in building trust and transparency within our model: the model was looking at the correct areas to determine the face mask usage. 
+The result of our model was an accuracy of 96% in being able to classify between the three classes: improper face mask usage, no mask, and proper face mask usage. In terms of Grad-CAM, the implementation was successful in building trust and transparency within our model: the model was looking at the correct areas to determine the face mask usage.
+
+
+Checkout our website and demo: https://github.com/elizabethmkim/FaceMaskDetection 
