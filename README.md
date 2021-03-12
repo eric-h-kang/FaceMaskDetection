@@ -39,4 +39,5 @@ The result of our model was an accuracy of 96% in being able to classify between
 
 # Website and Frontend links
 Checkout our website and demo: https://elizabethmkim.github.io/FaceMaskDetection/
+
 Checkout our frontend repo:  https://github.com/elizabethmkim/FaceMaskDetection 
